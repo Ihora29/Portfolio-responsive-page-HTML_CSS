@@ -1,0 +1,466 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-image {
+    background-size: cover;
+    background-color: rgba(198, 108, 73, 0.30);
+    background-blend-mode: overlay;
+    width: 100%;
+    height: 768px;
+
+}
+
+#header {
+    background-image: url(./Images/bg.jpg);
+    background-size: cover;
+    background-color: rgba(198, 108, 73, 0.30);
+    background-blend-mode: overlay;
+    width: 100%;
+    height: 768px;
+}
+
+
+
+.navbar-brand {
+    margin-top: 93px;
+    margin-left: 165px;
+}
+
+.main-text {
+    margin-left: 165px;
+    margin-top: 145px;
+}
+
+#nameMainContent {
+    color: #FFF;
+
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text-about {
+    margin-top: 93px;
+    margin-bottom: 76px;
+    display: inline-block;
+}
+
+.text-left {
+    color: var(--Gray-1, #333);
+    text-align: justify;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+#skillsblok {
+    background-color: #FFFAF2;
+
+}
+
+.text-skills {
+    display: inline-block;
+    margin-top: 93px;
+    margin-bottom: 86px;
+}
+
+.sometext {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#statisticPanel {
+    margin-top: 208px;
+    margin-left: 100px;
+    justify-content: space-around;
+    display: flex;
+}
+
+.progress {
+    margin-bottom: 16px;
+
+}
+
+.skill-bar {
+    margin-top: 60px;
+}
+
+#proffName {
+    margin: 0;
+}
+
+
+
+.portfolio-h2 {
+    margin-top: 93px;
+    color: var(--Gray-1, #333);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.ux-h4 {
+    margin-top: 86px;
+    color: var(--Gray-1, #333);
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px
+}
+
+#imageBlok {
+    margin-top: 274px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#twistimgblok1 img {
+    margin-bottom: 26px;
+
+}
+
+#twistimgblok2 img {
+    margin-bottom: 26px;
+    margin-left: 30px;
+
+}
+
+.paragraf-text {
+    color: var(--Gray-1, #333);
+    text-align: justify;
+    margin-top: 48px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-name {
+    color: var(--Gray-1, #333);
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px
+}
+
+
+.footer {
+    background-color: #FFFAF2;
+
+}
+
+#footerblok2 {
+    margin-top: 173px;
+}
+
+#footerblok3 {
+    margin-top: 173px;
+}
+
+#footerblok1 {
+    margin-top: 96px;
+}
+
+.foot-h4 {
+    margin-bottom: 51px;
+    color: var(--Gray-1, #333);
+
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#skillsbar {
+    display: flex;
+    flex-direction: column;
+}
+
+#skillprogres {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+#navbarSupportedContent7 {
+    margin-top: 93px;
+    margin-right: 166px;
+}
+
+.nav-link {
+    color: white;
+
+
+}
+
+@media (min-width:320px) and (max-width:768px) {
+
+    #header {
+        width: 100%;
+        height: 275px;
+        position: relative;
+
+
+    }
+
+    #navbar {
+        position: absolute;
+        top: 25px;
+        left: 24px;
+    }
+
+    .navbar-toggler,
+    .navbar-toggler-icon {
+        width: 24px;
+        height: 24px;
+    }
+
+    #toggle-fluid {
+        top: 25px;
+        left: 24px;
+    }
+
+    #nameMainContent {
+        margin: 50px auto;
+        color: #FFF;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        position: absolute;
+        top: 50px;
+        left: 98px;
+    }
+
+    .sometext {
+        color: #FFF;
+        position: absolute;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        top: 152px;
+        left: 98px;
+    }
+
+    .navbar-nav {
+        display: none;
+    }
+
+    .navbar-brand {
+        margin: 30px auto;
+
+    }
+
+    .text-about {
+        display: flex;
+        justify-content: center;
+    }
+
+    #skillsblok {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    #mainfotoskills {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    #statisticPanel {
+        display: flex;
+        margin: 26px auto;
+        width: 309px;
+    }
+
+    #portfolio-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #portfolioText {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+        width: 100%;
+    }
+
+    .progress {
+        margin-bottom: 26px;
+    }
+
+    #mainProfile {
+        margin-bottom: 0;
+    }
+
+    .skill-bar {
+        margin-top: 0;
+    }
+
+    #skillprogres {
+        width: 60%;
+    }
+
+    #imageBlok {
+        width: 100%;
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    #twistimgblok1 {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        width: 169px;
+        float: left;
+    }
+
+    #twistimgblok1 img {
+        margin-bottom: 12px;
+    }
+
+    #twistimgblok2 img {
+        margin-left: 14px;
+        margin-bottom: 12px;
+    }
+
+    #twistimgblok2 {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        width: 123px;
+    }
+
+    .portfolio-h2 {
+        margin-top: 25px;
+    }
+
+    .paragraf-text {
+        margin-top: 15px;
+    }
+
+    .ux-h4 {
+        margin-top: 19px;
+    }
+
+
+    .foto4 {
+        width: 123px;
+        height: 69px;
+
+    }
+
+    .foto3 {
+        width: 123px;
+        height: 113px;
+
+    }
+
+    .foto2 {
+        width: 169px;
+        height: 113px;
+
+    }
+
+    .foto1 {
+        width: 169px;
+        height: 69px;
+        margin-bottom: 12px;
+    }
+
+    .skill-bar {
+        margin-top: 31px;
+    }
+
+    #proffName {
+
+        color: var(--Gray-1, #333);
+
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+    }
+
+    .skill-name {
+        color: var(--Gray-1, #333);
+
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 25px;
+    }
+
+    .main-foto {
+        width: 224px;
+        height: 218px;
+    }
+
+
+    #footer {
+        width: 100%;
+        height: 500px;
+        position: relative;
+    }
+
+    .foot-p {
+        color: var(--Gray-1, #333);
+
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    #footerblok1,
+    #footerblok2 {
+        margin-top: 50px;
+    }
+
+    #footerblok3 {
+        position: absolute;
+        top: 50px;
+    }
+
+    .foot-h4 {
+        top: 10px;
+        left: 120px;
+        color: var(--Gray-1, #333);
+        position: absolute;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+}
